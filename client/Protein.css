@@ -1,0 +1,91 @@
+.edit-button {
+  float: right;
+  cursor: pointer;
+  background-color: lightgrey;
+  width: 75px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+  padding-right: 0;
+}
+
+.edit-button:hover {
+  background-color: grey;
+}
+
+.content-container {
+  border: 1px solid black;
+  width: 500px;
+  height: 100px;
+  overflow-y: scroll;
+  background-color: lightgrey;
+}
+
+.main-container {
+  margin: 24px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0px;
+  background-color: slategray;
+}
+
+.content-section {
+  margin-bottom: 24px;
+}
+
+.title {
+  color: rgb(19, 49, 61);
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 24px;
+}
+
+.protein-item {
+  color: rgb(19, 49, 61);
+  font-size: 20px;
+}
+
+.create-button {
+  float: right;
+}
+
+.input-text {
+  float: left;
+  width: 300px !important;
+  margin-right: 24px;
+}
+
+.create-container {
+  margin: 24px;
+  height: 50px;
+}
+
+.back-button {
+  margin: 0 auto;
+  color: black;
+  background-color: lightgrey;
+  width: 75px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.back-button:hover {
+  background-color: grey;
+}
+
+.content-label {
+  font-weight: bold;
+  color: rgb(19, 49, 61);
+  font-size: 24px;
+  padding: 5px;
+  padding-left: 0;
+}
